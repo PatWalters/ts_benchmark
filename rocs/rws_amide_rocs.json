@@ -1,0 +1,21 @@
+{
+    "reagent_file_list": [
+        "../data/primary_amines_1000.smi",
+        "../data/carboxylic_acids_1000.smi"
+    ],
+    "reaction_smarts": "[NH2:2][#6:1].[#6:4][C:3]([OH])=O>>[NH:2]([#6:1])[C:3]([#6:4])=O",
+    "nprocesses": 1,
+    "num_warmup_trials": 5,
+    "percent_of_library": 0.01,
+    "num_per_cycle": 2000,
+    "scaling": 1,
+    "stop": 1000,
+    "evaluator_class_name": "DBEvaluator",
+    "evaluator_arg": {
+	"db_filename": "amide_rocs_scores.sqlite",
+	"db_prefix": ""
+    },
+    "log_filename": "rws_amide_rocs_logs.txt",
+    "results_filename": "rws_amide_rocs_logs.csv",
+    "hide_progress": false
+}
