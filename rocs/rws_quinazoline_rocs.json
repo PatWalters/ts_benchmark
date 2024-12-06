@@ -7,7 +7,7 @@
     "reaction_smarts": "N[c:4][c:3]C(O)=O.[#6:1][NH2].[#6:2]C(=O)[OH]>>[C:2]c1n[c:4][c:3]c(=O)n1[C:1]",
     "nprocesses": 1,
     "num_warmup_trials": 5,
-    "percent_of_library": 0.01,
+    "percent_of_library": 0.011,
     "num_per_cycle": 2000,
     "scaling": 1,
     "stop": 1000,

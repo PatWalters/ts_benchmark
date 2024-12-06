@@ -6,7 +6,7 @@
     "reaction_smarts": "[NH2:2][#6:1].[#6:4][C:3]([OH])=O>>[NH:2]([#6:1])[C:3]([#6:4])=O",
     "nprocesses": 1,
     "num_warmup_trials": 5,
-    "percent_of_library": 0.01,
+    "percent_of_library": 0.011,
     "num_per_cycle": 2000,
     "scaling": 1,
     "stop": 1000,
