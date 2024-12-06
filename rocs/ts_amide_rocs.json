@@ -5,13 +5,13 @@
     ],
     "reaction_smarts": "[NH2:2][#6:1].[#6:4][C:3]([OH])=O>>[NH:2]([#6:1])[C:3]([#6:4])=O",
     "num_warmup_trials": 5,
-    "num_ts_iterations": 10000,
+    "num_ts_iterations": 1000,
     "evaluator_class_name": "DBEvaluator",
     "evaluator_arg": {
         "db_filename": "amide_rocs_scores.sqlite",
 	"db_prefix": ""
     },
     "ts_mode": "maximize",
-    "log_filename": "ts_amide_docking_logs.txt",
-    "results_filename": "ts_amide_docking_logs.csv"
+    "log_filename": "ts_amide_rocs_logs.txt",
+    "results_filename": "ts_amide_rocs_logs.csv"
 }
