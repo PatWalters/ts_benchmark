@@ -1,0 +1,24 @@
+{
+    "reagent_file_list": [
+        "/Users/pwalters/software/ts_benchmark/data/primary_amines_1000.smi",
+        "/Users/pwalters/software/ts_benchmark/data/carboxylic_acids_1000.smi"
+    ],
+    "reaction_smarts": "[NH2:2][#6:1].[#6:4][C:3]([OH])=O>>[NH:2]([#6:1])[C:3]([#6:4])=O",
+    "num_warmup_trials": 5,
+    "num_ts_iterations": 10000,
+    "evaluator_class_name": "DBEvaluator",
+    "evaluator_arg": {
+	"db_filename": "/Users/pwalters/software/ts_benchmark/docking/amide_docking_scores.sqlite",
+	"db_prefix": ""
+    },
+    "num_generations" : 20,
+    "num_parents_mating" : 500,
+    "sol_per_pop" : 1000,
+    "parent_selection_type" : "sss",
+    "keep_parents" : -1,
+    "crossover_type" : "single_point",
+    "mutation_type" : "random",
+    "ts_mode": "maximize",
+    "log_filename": "ts_amide_docking_logs.txt",
+    "results_filename": "ts_amide_docking_logs.csv"
+}

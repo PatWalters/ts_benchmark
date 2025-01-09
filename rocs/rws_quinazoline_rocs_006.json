@@ -7,16 +7,16 @@
     "reaction_smarts": "N[c:4][c:3]C(O)=O.[#6:1][NH2].[#6:2]C(=O)[OH]>>[C:2]c1n[c:4][c:3]c(=O)n1[C:1]",
     "nprocesses": 1,
     "num_warmup_trials": 3,
-    "percent_of_library": 0.001,
+    "percent_of_library": 0.01,
     "num_per_cycle": 1000,
     "scaling": 1,
     "stop": 6000,
     "evaluator_class_name": "DBEvaluator",
     "evaluator_arg": {
-        "db_filename": "quinazoline_docking_scores.sqlite",
-	"db_prefix": ""
+        "db_filename": "quinazoline_rocs_scores.sqlite",
+        "db_prefix": ""
     },
-    "log_filename": "rws_quinazoline_docking_logs.txt",
-    "results_filename": "rws_quinazoline_docking_logs.csv",
+    "log_filename": "rws_quinazoline_rocs_logs_006.txt",
+    "results_filename": "rws_quinazoline_rocs_logs_006.csv",
     "hide_progress": false
 }

@@ -12,10 +12,10 @@
     "stop": 6000,
     "evaluator_class_name": "DBEvaluator",
     "evaluator_arg": {
-	"db_filename": "amide_docking_scores.sqlite",
-	"db_prefix": ""
+        "db_filename": "amide_docking_scores.sqlite",
+        "db_prefix": ""
     },
-    "log_filename": "rws_amide_docking_logs.txt",
-    "results_filename": "rws_amide_docking_logs.csv",
+    "log_filename": "rws_amide_docking_logs_002.txt",
+    "results_filename": "rws_amide_docking_logs_002.csv",
     "hide_progress": false
 }

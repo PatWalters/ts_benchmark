@@ -14,9 +14,9 @@
     "evaluator_class_name": "DBEvaluator",
     "evaluator_arg": {
         "db_filename": "quinazoline_docking_scores.sqlite",
-	"db_prefix": ""
+        "db_prefix": ""
     },
-    "log_filename": "rws_quinazoline_docking_logs.txt",
-    "results_filename": "rws_quinazoline_docking_logs.csv",
+    "log_filename": "rws_quinazoline_docking_logs_002.txt",
+    "results_filename": "rws_quinazoline_docking_logs_002.csv",
     "hide_progress": false
 }
