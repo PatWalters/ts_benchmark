@@ -5,13 +5,18 @@
         "../data/carboxylic_acids_100.smi"
     ],
     "reaction_smarts": "N[c:4][c:3]C(O)=O.[#6:1][NH2].[#6:2]C(=O)[OH]>>[C:2]c1n[c:4][c:3]c(=O)n1[C:1]",
-    "num_warmup_trials": 5,
-    "num_ts_iterations": 10000,
     "evaluator_class_name": "DBEvaluator",
     "evaluator_arg": {
         "db_filename": "quinazoline_rocs_scores.sqlite",
 	"db_prefix": ""
     },
+    "num_generations" : 25,
+    "num_parents_mating" : 500,
+    "sol_per_pop" : 1000,
+    "parent_selection_type" : "rws",
+    "keep_parents" : -1,
+    "crossover_type" : "single_point",
+    "mutation_type" : "random",
     "ts_mode": "maximize",
     "log_filename": "ga_quinazoline_rocs_logs.txt",
     "results_filename": "ga_quinazoline_rocs_logs.csv"

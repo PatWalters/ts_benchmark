@@ -12,10 +12,10 @@
         "db_filename": "/Users/pwalters/software/ts_benchmark/docking/quinazoline_docking_scores.sqlite",
 	"db_prefix": ""
     },
-    "num_generations" : 20,
+    "num_generations" : 25,
     "num_parents_mating" : 50,
     "sol_per_pop" : 1000,
-    "parent_selection_type" : "sss",
+    "parent_selection_type" : "rws",
     "keep_parents" : -1,
     "crossover_type" : "single_point",
     "mutation_type" : "random",
